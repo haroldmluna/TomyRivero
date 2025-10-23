@@ -1,0 +1,55 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.top-bar .btn {
+  width: 10rem;
+}
+
+.top-bar .top-bar-logo {
+  width: 8rem;
+}
+
+@media (max-width: 1000px) {
+  .top-bar .top-bar-logo {
+    width: 5.5rem;
+  }
+}
+
+.top-bar .theme-toggle {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.top-bar .theme-toggle button {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--base-200);
+  border: 1px solid var(--base-400);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.top-bar .theme-toggle button.active {
+  border-color: var(--base-200);
+  color: var(--base-100);
+  background-color: rgba(242, 237, 230, 0.06);
+}
+
+@media (max-width: 1000px) {
+  .top-bar {
+    padding: 0.5rem 1.5rem;
+  }
+}

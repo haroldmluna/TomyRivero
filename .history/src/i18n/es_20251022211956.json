@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "byLook": "Por Look",
+    "giftCards": "Tarjetas regalo",
+    "connect": "Contacto"
+  },
+  "topbar": {
+    "reserve": "Reservar"
+  },
+  "footer": {
+    "tagline": "Eleva tu experiencia de cuidado personal."
+  },
+  "home": {
+    "hero": {
+      "title": "Eleva tu experiencia de cuidado personal",
+      "tagline": "Manicure, skincare y spa personalizados—diseñados con intención para ayudarte a relajarte, renovarte y revelar tu mejor versión."
+    },
+    "stats": {
+      "colors": "+1,000 colores para elegir",
+      "satisfaction": "+98% satisfacción de clientes",
+      "appointments": "+5,000 citas completadas",
+      "cafe": "Beauty Café abre en Inwood"
+    },
+    "approach": {
+      "header": "En Tomy Rivero Beauty elevamos el self‑care con nail care experto, skincare y rituales de spa—pensados para la calma, la claridad y un brillo duradero.",
+      "lead": "Cada servicio inicia con consulta y cuidado. Combinamos técnicas limpias, productos curados y manos expertas para resultados refinados, restaurativos y únicos para ti."
+    },
+    "tags": {
+      "nailCare": "Nail Care",
+      "skincare": "Skincare",
+      "spa": "Rituales de spa",
+      "clean": "Clean Beauty",
+      "expert": "Cuidado experto",
+      "cafe": "Beauty Café"
+    },
+    "featured": {
+      "callout": "Servicios destacados",
+      "header": "Una selección de servicios y tratamientos signature"
+    },
+    "reviews": {
+      "callout": "Dulces reseñas de nuestros clientes"
+    },
+    "gallery": {
+      "copy": "Explora los looks y tratamientos favoritos de nuestros clientes. Desde acabados minimalistas hasta nail art expresivo y faciales restaurativos—encuentra tu próximo favorito.",
+      "explore": "Explorar galería"
+    },
+    "cta": {
+      "header": "Tomy Rivero Beauty",
+      "callout": "Eleva tu self‑care",
+      "description": "Servicios cuidados, técnica experta y un espacio acogedor—pensados para ayudarte a relajarte, renovarte y salir con ese glow inconfundible."
+    }
+  },
+  "connect": {
+    "header": "Reserva tu cita",
+    "appointments": "Citas",
+    "bookOnline": "Reservar online — Mangomint",
+    "lab": "Beauty Lab",
+    "cafeOpening": "Beauty Café — Otoño ’25",
+    "questions": "Consultas",
+    "hours": "Horario",
+    "schedule": "Mar – Dom",
+    "byAppointment": "Con cita previa"
+  }
+}

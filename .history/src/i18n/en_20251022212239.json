@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "byLook": "By Look",
+    "giftCards": "Gift Cards",
+    "connect": "Connect"
+  },
+  "topbar": {
+    "reserve": "Book now"
+  },
+  "footer": {
+    "tagline": "Elevate your self‑care experience."
+  },
+  "home": {
+    "hero": {
+      "title": "Elevate your self‑care experience",
+      "tagline": "Personalized nail care, rejuvenating skin treatments, and spa services—thoughtfully designed to help you relax, renew, and reveal your best self."
+    },
+    "stats": {
+      "colors": "Colors to choose from",
+      "satisfaction": "Five‑star client satisfaction",
+      "appointments": "Appointments completed",
+      "cafe": "Beauty Café opens in Inwood"
+    },
+    "approach": {
+      "header": "At Tomy Rivero Beauty, we elevate self‑care with expert nail care, skincare, and spa rituals—crafted for calm, clarity, and a lasting glow.",
+      "lead": "Every service begins with consultation and care. We combine clean techniques, curated products, and practiced hands to create results that feel refined, restorative, and uniquely yours."
+    },
+    "tags": {
+      "nailCare": "Nail Care",
+      "skincare": "Skincare",
+      "spa": "Spa Rituals",
+      "clean": "Clean Beauty",
+      "expert": "Expert Care",
+      "cafe": "Beauty Café"
+    },
+    "featured": {
+      "callout": "Featured services",
+      "header": "A selection of signature services and treatments"
+    },
+    "reviews": {
+      "callout": "Sweet reviews from our customers"
+    },
+    "gallery": {
+      "copy": "Take a closer look at the looks and treatments our clients love. From clean, minimalist finishes to expressive nail art and restorative facials—find your next favorite.",
+      "explore": "Explore gallery"
+    },
+    "cta": {
+      "header": "Tomy Rivero Beauty",
+      "callout": "Elevate your self‑care",
+      "description": "Thoughtful services, expert techniques, and a welcoming space—crafted to help you relax, renew, and leave with that unmistakable glow."
+    }
+  },
+  "connect": {
+    "header": "Book your appointment",
+    "appointments": "Appointments",
+    "bookOnline": "Book online — Mangomint",
+    "lab": "Beauty Lab",
+    "cafeOpening": "Beauty Café — Fall ’25",
+    "questions": "Questions",
+    "hours": "Hours",
+    "schedule": "Tue – Sun",
+    "byAppointment": "By appointment"
+  },
+  "gift": {
+    "title": "Gift Cards",
+    "hero": {
+      "copy": "Give the gift of calm, color, and glow. Choose an amount and let them book the service they love—manicure, skincare, or a spa ritual at our Beauty Lab."
+    },
+    "cta": "Buy a gift card",
+    "details": {
+      "instant": { "title": "Instant delivery", "body": "Digital gift card delivered by email with your personal message." },
+      "flexible": { "title": "Flexible amounts", "body": "Pick a preset or enter a custom value—redeemable for any service." },
+      "redeem": { "title": "Easy to redeem", "body": "Recipients can book online and apply the code at checkout." }
+    }
+  }
+}

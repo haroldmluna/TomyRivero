@@ -1,0 +1,11 @@
+{
+  "path": "src/assets/image/Location",
+  "layers": [
+    { "file": "Background.png", "role": "background", "depth": 0 },
+    { "file": "Layer 1.png", "role": "layer1", "depth": 0.2 },
+    { "file": "Layer 2.png", "role": "layer2", "depth": 0.4 },
+    { "file": "Layer 3.png", "role": "layer3", "depth": 0.6 },
+    { "file": "Layer 4.png", "role": "layer4", "depth": 0.8 },
+    { "file": "Layer 5.png", "role": "layer5", "depth": 1.0 }
+  ]
+}

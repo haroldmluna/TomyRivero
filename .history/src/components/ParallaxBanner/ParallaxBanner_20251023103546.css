@@ -1,0 +1,24 @@
+/* Full-bleed container inside .hero .hero-bg */
+.parallax-banner {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.parallax-banner .parallax-layer {
+	position: absolute;
+	inset: 0;
+	will-change: transform;
+	transform: translateZ(0);
+	filter: brightness(0.78) contrast(1.05) saturate(0.95);
+}
+
+.parallax-banner .parallax-layer img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	transform: scale(0.8); /* reduce visualmente el tamaño */
+	transform-origin: center;
+}

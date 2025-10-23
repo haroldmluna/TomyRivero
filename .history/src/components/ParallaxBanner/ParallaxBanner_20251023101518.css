@@ -1,0 +1,63 @@
+.parallax-banner {
+  position: relative;
+  width: 100%;
+  height: 560px; /* default hero height, can be overridden */
+  overflow: hidden;
+  pointer-events: auto;
+  display: block;
+}
+
+.parallax-banner .parallax-layer {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  will-change: transform;
+}
+
+/* Overlay slot for content (text, CTA) */
+.parallax-banner-content {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* allow pointer to pass to container for mouse parallax */
+  padding: 2rem 1rem;
+}
+
+.parallax-banner-content > * {
+  pointer-events: auto; /* allow interaction with CTAs inside */
+}
+
+/* ensure background layer is at the back */
+.parallax-banner .parallax-layer.layer-0 { z-index: 0; }
+.parallax-banner .parallax-layer.layer-1 { z-index: 1; }
+.parallax-banner .parallax-layer.layer-2 { z-index: 2; }
+.parallax-banner .parallax-layer.layer-3 { z-index: 3; }
+.parallax-banner .parallax-layer.layer-4 { z-index: 4; }
+.parallax-banner .parallax-layer.layer-5 { z-index: 5; }
+
+/* subtle parallax blur effect for farther layers (optional) */
+.parallax-banner .parallax-layer.layer-0 { filter: none; }
+.parallax-banner .parallax-layer.layer-1 { filter: none; }
+.parallax-banner .parallax-layer.layer-2 { filter: none; }
+.parallax-banner .parallax-layer.layer-3 { filter: none; }
+.parallax-banner .parallax-layer.layer-4 { filter: none; }
+.parallax-banner .parallax-layer.layer-5 { filter: none; }
+
+/* Responsive heights */
+@media (max-width: 1024px) {
+  .parallax-banner { height: 520px; }
+}
+
+@media (max-width: 768px) {
+  .parallax-banner { height: 420px; }
+  .parallax-banner-content { padding: 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  .parallax-banner { height: 320px; }
+}

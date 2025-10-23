@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "byLook": "Por Look",
+    "giftCards": "Tarjetas regalo",
+    "connect": "Contacto"
+  },
+  "topbar": {
+    "reserve": "Reservar"
+  },
+  "footer": {
+    "tagline": "Eleva tu experiencia de cuidado personal."
+  }
+}

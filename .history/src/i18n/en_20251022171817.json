@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "byLook": "By Look",
+    "giftCards": "Gift Cards",
+    "connect": "Connect"
+  },
+  "topbar": {
+    "reserve": "Book now"
+  },
+  "footer": {
+    "tagline": "Elevate your self‑care experience."
+  }
+}

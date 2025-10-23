@@ -1,0 +1,14 @@
+.parallax-banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  perspective: 1200px;
+}
+
+.parallax-layer {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+}

@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "byLook": "By Look",
+    "giftCards": "Gift Cards",
+    "connect": "Connect"
+  },
+  "topbar": {
+    "reserve": "Book now"
+  },
+  "footer": {
+    "tagline": "Elevate your self‑care experience."
+  },
+  "home": {
+    "hero": {
+      "title": "Elevate your self‑care experience",
+      "tagline": "Personalized nail care, rejuvenating skin treatments, and spa services—thoughtfully designed to help you relax, renew, and reveal your best self."
+    },
+    "stats": {
+      "colors": "Colors to choose from",
+      "satisfaction": "Five‑star client satisfaction",
+      "appointments": "Appointments completed",
+      "cafe": "Beauty Café opens in Inwood"
+    },
+    "approach": {
+      "header": "At Tomy Rivero Beauty, we elevate self‑care with expert nail care, skincare, and spa rituals—crafted for calm, clarity, and a lasting glow.",
+      "lead": "Every service begins with consultation and care. We combine clean techniques, curated products, and practiced hands to create results that feel refined, restorative, and uniquely yours."
+    },
+    "tags": {
+      "nailCare": "Nail Care",
+      "skincare": "Skincare",
+      "spa": "Spa Rituals",
+      "clean": "Clean Beauty",
+      "expert": "Expert Care",
+      "cafe": "Beauty Café"
+    },
+    "featured": {
+      "callout": "Featured services",
+      "header": "A selection of signature services and treatments"
+    },
+    "reviews": {
+      "callout": "Sweet reviews from our customers"
+    },
+    "gallery": {
+      "copy": "Take a closer look at the looks and treatments our clients love. From clean, minimalist finishes to expressive nail art and restorative facials—find your next favorite.",
+      "explore": "Explore gallery"
+    },
+    "cta": {
+      "header": "Tomy Rivero Beauty",
+      "callout": "Elevate your self‑care",
+      "description": "Thoughtful services, expert techniques, and a welcoming space—crafted to help you relax, renew, and leave with that unmistakable glow."
+    }
+  },
+  "connect": {
+    "header": "Book your appointment",
+    "appointments": "Appointments",
+    "bookOnline": "Book online — Mangomint",
+    "lab": "Beauty Lab",
+    "cafeOpening": "Beauty Café — Fall ’25",
+    "questions": "Questions",
+    "hours": "Hours",
+    "schedule": "Tue – Sun",
+    "byAppointment": "By appointment"
+  },
+  "gift": {
+    "title": "Gift Cards",
+    "hero": {
+      "copy": "Give the gift of calm, color, and glow. Choose an amount and let them book the service they love—manicure, skincare, or a spa ritual at our Beauty Lab."
+    },
+    "cta": "Buy a gift card",
+    "details": {
+      "instant": { "title": "Instant delivery", "body": "Digital gift card delivered by email with your personal message." },
+      "flexible": { "title": "Flexible amounts", "body": "Pick a preset or enter a custom value—redeemable for any service." },
+      "redeem": { "title": "Easy to redeem", "body": "Recipients can book online and apply the code at checkout." }
+    }
+  }
+  ,
+  "cafe": {
+    "name": "Tomy Rivero Beauty",
+    "title": "Beauty Caf\u00e9",
+    "tagline": "Opening in Inwood, Fall '25 — a place for espresso, matcha, and modern beauty culture. A warm, minimal space to pause, discover color, and connect.",
+    "joinWaitlist": "Join the waitlist",
+    "signatureDrinks": "Signature Drinks",
+    "signatureDrinksDesc": "Seasonal espresso, matcha, and herbal blends—crafted with the same care we bring to every service.",
+    "colorRetail": "Color & Retail",
+    "colorRetailDesc": "A curated beauty bar and 1,000+ color library. Try, learn, and find your next favorite finish.",
+    "events": "Events & Workshops",
+    "eventsDesc": "Talks, demos, and small gatherings—beauty, wellness, and culture in conversation.",
+    "cta": {
+      "comingSoon": "Coming Soon",
+      "callout": "Tomy Rivero Beauty Caf\u00e9",
+      "description": "A new space for beauty and everyday ritual. Be the first to know about opening events and specials."
+    }
+  },
+  "lab": {
+    "name": "Tomy Rivero Beauty",
+    "title": "Beauty Lab",
+    "tagline": "A calm, refined space for modern self-care—expert nail care, rejuvenating skin treatments, and spa rituals designed for clarity, comfort, and glow.",
+    "reserve": "Book now",
+    "nailCare": "Nail Care",
+    "skincare": "Skincare",
+    "spa": "Spa Rituals",
+    "cta": {
+      "header": "Reserve your visit",
+      "callout": "Experience Tomy Rivero Beauty Lab",
+      "description": "Book online and let our team take care of you with personalized beauty services—crafted for calm, clarity, and glow."
+    }
+  },
+  "sample": {
+    "title": "Signature Gel Manicure",
+    "location": "Inwood, NYC",
+    "description1": "A meticulous prep, long-wear finish, and over 1,000 curated shades to choose from. Clean, refined, and made to last.",
+    "description2": "A quiet ritual that prioritizes nail health and polish precision so your everyday feels a little more elevated.",
+    "cta": {
+      "header": "Book now",
+      "callout": "Reserve your appointment",
+      "description": "Enjoy a personalized experience with expert nail care and restorative treatments—crafted for calm, clarity, and glow."
+    }
+  },
+  "studio": {
+    "lead": "We see beauty as self-care. From precise nail care to rejuvenating skin treatments, every service is delivered with expert technique and calm intention.",
+    "header": "Our beauty lab is designed for modern rituals—clean, refined, and welcoming. Thoughtful services that help you relax, renew, and leave with that unmistakable glow.",
+    "cta": {
+      "header": "Reserve your visit",
+      "callout": "Experience Tomy Rivero Beauty Lab",
+      "description": "Book online and let our team take care of you with personalized beauty services—manicure, skincare, and spa rituals designed for calm and clarity."
+    }
+  },
+  "how": {
+    "callout": "Our service process",
+    "header": "From consultation to finish, we care for every detail—clean techniques, calm pacing, and results that last.",
+    "stepLabel": "Step",
+    "consultation": "Consultation",
+    "consultationDesc": "We start by understanding your goals and preferences—finish, shape, sensitivity, and routine—so the service can be tailored to you.",
+    "cleanPrep": "Clean Prep",
+    "cleanPrepDesc": "Meticulous cuticle care and shaping form the foundation. Clean techniques support nail health and set up a flawless finish.",
+    "technique": "Technique",
+    "techniqueDesc": "Precise application and even coverage—whether sheer, bold, or art—with attention to symmetry and smooth, lasting wear.",
+    "finish": "Finish & Care",
+    "finishDesc": "Choose from glossy or soft-matte. We share simple, effective aftercare to keep your finish looking fresh between visits.",
+    "bookNow": "Book now"
+  }
+  ,
+  "nav": {
+    "social": "Social",
+    "instagram": "Instagram",
+    "arena": "Are.na",
+    "linkedin": "LinkedIn"
+  },
+  "connect": {
+    "website": "tomyriverobeauty.com",
+    "location": "Inwood, NYC"
+  }
+}

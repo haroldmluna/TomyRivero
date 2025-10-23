@@ -1,0 +1,99 @@
+"use client";
+import "./studio.css";
+
+import Nav from "@/components/Nav/Nav";
+import ConditionalFooter from "@/components/ConditionalFooter/ConditionalFooter";
+import HowWeWork from "@/components/HowWeWork/HowWeWork";
+import Spotlight from "@/components/Spotlight/Spotlight";
+import CTAWindow from "@/components/CTAWindow/CTAWindow";
+import Copy from "@/components/Copy/Copy";
+import { useI18n } from "@/context/I18nContext";
+
+const page = () => {
+  const { t } = useI18n();
+
+  return (
+    <>
+      <Nav />
+      <div className="page studio">
+        <section className="studio-hero">
+          <div className="container">
+            <div className="studio-hero-col">
+              <Copy delay={0.85}>
+                <p>{t(
+                  "studio.lead",
+                  "We see beauty as self-care. From precise nail care to rejuvenating skin treatments, every service is delivered with expert technique and calm intention."
+                )}</p>
+              </Copy>
+            </div>
+            <div className="studio-hero-col">
+              <Copy delay={0.85}>
+                <h2>{t(
+                  "studio.header",
+                  "Our beauty lab is designed for modern rituals—clean, refined, and welcoming. Thoughtful services that help you relax, renew, and leave with that unmistakable glow."
+                )}</h2>
+              </Copy>
+              <div className="studio-hero-hero-img">
+                <img src="/studio/about-hero.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="more-facts">
+          <div className="container">
+            <div className="more-facts-items">
+              <div className="fact">
+                <Copy delay={0.1}>
+                  <p>{t("studio.stats.colors","Colors available")}</p>
+                  <h2>{t("studio.stats.colorsCount","1,000+")}</h2>
+                </Copy>
+              </div>
+              <div className="fact">
+                <Copy delay={0.2}>
+                  <p>{t("studio.stats.satisfaction","Client satisfaction")}</p>
+                  <h2>{t("studio.stats.satisfactionCount","98%")}</h2>
+                </Copy>
+              </div>
+              <div className="fact">
+                <Copy delay={0.3}>
+                  <p>{t("studio.stats.services","Services offered")}</p>
+                  <h2>{t("studio.stats.servicesCount","25+")}</h2>
+                </Copy>
+              </div>
+              <div className="fact">
+                <Copy delay={0.4}>
+                  <p>{t("studio.stats.appointments","Appointments completed")}</p>
+                  <h2>{t("studio.stats.appointmentsCount","5k+")}</h2>
+                </Copy>
+              </div>
+              <div className="fact">
+                <Copy delay={0.5}>
+                  <p>{t("studio.stats.cafe","Beauty Café")}</p>
+                  <h2>{t("studio.stats.cafeCount","Fall ’25")}</h2>
+                </Copy>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="how-we-work-container">
+          <div className="container">
+            <HowWeWork />
+          </div>
+        </section>
+        <CTAWindow
+          img="/studio/about-cta-window.jpg"
+          header={t("studio.cta.header", "Reserve your visit")}
+          callout={t("studio.cta.callout", "Experience Tomy Rivero Beauty Lab")}
+          description={t(
+            "studio.cta.description",
+            "Book online and let our team take care of you with personalized beauty services—manicure, skincare, and spa rituals designed for calm and clarity."
+          )}
+        />
+        <Spotlight />
+      </div>
+      <ConditionalFooter />
+    </>
+  );
+};
+
+export default page;

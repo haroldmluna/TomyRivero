@@ -1,0 +1,14 @@
+.hero {
+  position: relative; /* crea un contexto para el banner */
+}
+
+.parallax-banner {
+  position: absolute;
+  inset: 0;
+  z-index: 1; /* detrás del texto */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 5; /* texto arriba */
+}
