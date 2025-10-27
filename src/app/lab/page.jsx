@@ -45,26 +45,6 @@ export default function Page() {
         </div>
         <div className="hero-stats">
           <div className="container">
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.1}><h2>1,000+</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.15}><p>Colors to choose from</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.2}><h2>98%</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.25}><p>Five‑star satisfaction</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.3}><h2>Clean</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.35}><p>Techniques, nail health first</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.4}><h2>Lab</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.45}><p>Inwood, NYC</p></Copy></div>
-            </div>
           </div>
         </div>
       </section>

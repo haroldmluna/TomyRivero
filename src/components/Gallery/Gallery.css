@@ -54,9 +54,9 @@
   gap: 0.5rem;
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
-  background: #ffffff;
-  color: #111111;
-  border: 1px solid rgba(255,255,255,0.9);
+  background: var(--base-100);
+  color: var(--base-500);
+  border: 1px solid var(--base-200);
   text-decoration: none;
   font-size: 0.875rem;
 }
@@ -68,7 +68,7 @@
   bottom: 3rem; /* sits above actions */
   max-width: min(80vw, 640px);
   background: rgba(0,0,0,0.5);
-  color: #fff;
+  color: var(--base-100);
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   font-size: 0.95rem;
@@ -83,9 +83,9 @@
   right: 0.35rem;
   top: -1.75rem;
   appearance: none;
-  border: 1px solid rgba(255,255,255,0.75);
-  background: rgba(255,255,255,0.9);
-  color: #111;
+  border: 1px solid var(--base-200);
+  background: var(--base-100);
+  color: var(--base-500);
   border-radius: 999px;
   padding: 0.15rem 0.5rem;
   font-size: 0.75rem;
@@ -97,7 +97,7 @@
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-  filter: contrast(1.1) !important;
+  filter: grayscale(100%) contrast(1.1) !important;
 }
 
 .overlay {
@@ -132,7 +132,7 @@
 .project-title p {
   position: relative;
   height: 4rem;
-  color: #fff;
+  color: var(--base-100);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 

@@ -1,0 +1,10 @@
+[debug] [2025-10-25T19:34:03.941Z] ----------------------------------------------------------------------
+[debug] [2025-10-25T19:34:03.943Z] Command:       /Users/haroldluna/.nvm/versions/node/v20.19.5/bin/node /Users/haroldluna/.nvm/versions/node/v20.19.5/bin/firebase deploy --only hosting --debug
+[debug] [2025-10-25T19:34:03.943Z] CLI Version:   14.20.0
+[debug] [2025-10-25T19:34:03.943Z] Platform:      darwin
+[debug] [2025-10-25T19:34:03.943Z] Node Version:  v20.19.5
+[debug] [2025-10-25T19:34:03.943Z] Time:          Sat Oct 25 2025 15:34:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-10-25T19:34:03.943Z] ----------------------------------------------------------------------
+[debug] 
+[error] 
+[error] Error: Cannot understand what targets to deploy/serve. No targets in firebase.json match '--only hosting'.

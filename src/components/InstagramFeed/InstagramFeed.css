@@ -33,7 +33,7 @@
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 0.5rem;
-  background: var(--base-800);
+  background: var(--base-450);
 }
 
 .instagram-feed .item a {
@@ -59,7 +59,7 @@
 }
 
 .instagram-feed .skeleton {
-  background: linear-gradient(90deg, var(--base-800), var(--base-700), var(--base-800));
+  background: linear-gradient(90deg, var(--base-450), var(--base-400), var(--base-450));
   background-size: 200% 100%;
   animation: shimmer 1.2s infinite;
 }

@@ -127,7 +127,6 @@
 }
 
 .client-reviews p.client-name {
-  font-size: 0.9rem;
   font-weight: 600;
   color: var(--base-500);
   line-height: 1;
@@ -136,7 +135,6 @@
 }
 
 .client-reviews p.client-title {
-  font-size: 0.75rem;
   color: var(--base-300);
   line-height: 1;
   margin: 0;

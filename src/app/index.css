@@ -1,3 +1,6 @@
+/* Import the new styles */
+@import '../components/MouseRevealMask/MouseRevealMask.css';
+
 .brand-gate {
   width: 100%;
   height: 100svh;
@@ -22,7 +25,7 @@
   gap: 1rem;
   text-align: center;
   padding: 2rem;
-  border-right: 1px solid rgba(242,237,230,0.12);
+  border-right: 1px solid var(--base-450);
 }
 
 .brand-gate .gate:last-child { border-right: none; }
@@ -31,6 +34,7 @@
   width: clamp(160px, 28vw, 260px);
   height: auto;
   opacity: 0.95;
+  filter: grayscale(100%);
 }
 
 .brand-gate .gate h2 {
@@ -40,21 +44,21 @@
 }
 
 .brand-gate .gate:hover {
-  background: rgba(0,0,0,0.18);
+  background: var(--base-450);
 }
 
 @media (max-width: 1000px) {
   .brand-gate .brand-gate-grid { grid-template-columns: 1fr; }
-  .brand-gate .gate { border-right: none; border-bottom: 1px solid rgba(242,237,230,0.12); }
+  .brand-gate .gate { border-right: none; border-bottom: 1px solid var(--base-450); }
   .brand-gate .gate:last-child { border-bottom: none; }
 }
 
 .hero {
   position: relative;
   width: 100%;
-  height: 135svh;
+  height: 100svh;
   overflow: hidden;
-  background-color: #d3cec5;
+  background-color: var(--base-400);
 }
 
 .hero .hero-bg {
@@ -73,11 +77,11 @@
   left: 0;
   width: 100%;
   height: 50svh;
-  background: #1a1818;
+  background: var(--base-500);
   background: linear-gradient(
     360deg,
-    rgba(20, 19, 19, 1) 0%,
-    rgba(20, 19, 19, 0) 100%
+    var(--base-500) 0%,
+    rgba(0, 0, 0, 0) 100%
   );
   z-index: 2;
 }
@@ -85,7 +89,7 @@
 .hero .hero-bg img {
   will-change: transform;
   transform: translateZ(0);
-  filter: brightness(0.78) contrast(1.05) saturate(0.95);
+  filter: grayscale(100%) brightness(0.8) contrast(1.2);
 }
 
 .hero .hero-overlay {
@@ -102,7 +106,7 @@
 
 .hero .hero-content {
   position: absolute;
-  top: 50svh;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--base-100);
@@ -112,7 +116,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1rem;
 }
 
@@ -120,12 +124,12 @@
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.1;
-  color: #ffffff;
+  color: var(--base-100);
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
 }
 
 .hero .hero-tagline {
-  width: 40%;
+  width: 60%;
   color: var(--base-200);
 }
 
@@ -155,7 +159,7 @@
   padding: 1rem;
   aspect-ratio: 16/9;
   color: var(--base-200);
-  background-color: rgba(242, 237, 230, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1rem);
   border-radius: 1rem;
   overflow: hidden;
@@ -188,14 +192,14 @@
 
 @media (max-width: 1000px) {
   .hero {
-    height: 175svh;
+    height: 100svh;
   }
   .hero .hero-content {
-    width: 100%;
+    width: 90%;
   }
 
   .hero .hero-header h1 {
-    font-size: clamp(2rem, 8vw, 2.75rem);
+    font-size: clamp(2.5rem, 10vw, 3.5rem);
     letter-spacing: -0.02em;
     line-height: 1.15;
   }
@@ -424,7 +428,7 @@
   bottom: 1rem;
   left: 1rem;
   padding: 1rem;
-  background-color: rgba(20, 19, 19, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15px);
   color: var(--base-100);
   border-radius: 0.75rem;

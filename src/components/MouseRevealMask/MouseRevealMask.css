@@ -1,0 +1,34 @@
+.mask-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask-content-unmasked {
+  position: relative;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.mask-reveal-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.mask-svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: -1;
+}

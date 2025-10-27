@@ -1,10 +1,11 @@
+import ConditionalTopBar from "@/components/ConditionalTopBar/ConditionalTopBar";
 import "./globals.css";
 import ClientLayout from "@/client-layout";
 import Providers from "@/providers";
 import Script from "next/script";
 import GAListener from "@/components/Analytics/GAListener";
 import ChatWidget from "@/components/ChatWidget/ChatWidget";
-import TopBar from "@/components/TopBar/TopBar";
+
 
 export const metadata = {
   title: "Tomy Rivero Beauty",
@@ -55,7 +56,7 @@ export default function RootLayout({ children }) {
           {process.env.NEXT_PUBLIC_GA_ID && <GAListener />}
           <ChatWidget />
           <ClientLayout>
-            <TopBar />
+            <ConditionalTopBar />
             {children}
           </ClientLayout>
         </Providers>

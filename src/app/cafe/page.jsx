@@ -26,7 +26,7 @@ export default function Page() {
           <div className="hero-content">
             <div className="hero-header">
               <Copy delay={0.85} animateOnScroll={false}>
-                <h1>{t("cafe.title", "Beauty Caf\u00e9")}</h1>
+                <h1>{t("cafe.title", "Beauty Café")}</h1>
               </Copy>
             </div>
             <div className="hero-tagline">
@@ -34,31 +34,10 @@ export default function Page() {
                 <p>{t("cafe.openTagline", "A place for espresso, matcha, and modern beauty culture. A warm, minimal space to pause, discover color, and connect — now open in Inwood, NYC.")}</p>
               </Copy>
             </div>
-            <AnimatedButton label={t("cafe.viewMenu","View menu")} route="/cafe#menu" animateOnScroll={false} />
           </div>
         </div>
         <div className="hero-stats">
           <div className="container">
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.1}><h2>Signature</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.15}><p>{t("cafe.signatureDrinks","Signature Drinks")}</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.2}><h2>1,000+</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.25}><p>{t("cafe.colorsLibrary","Colors library")}</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.3}><h2>Events</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.35}><p>{t("cafe.events","Events & Workshops")}</p></Copy></div>
-            </div>
-            <div className="stat">
-              <div className="stat-count"><Copy delay={0.4}><h2>{t("cafe.nowOpen","Now Open")}</h2></Copy></div>
-              <div className="stat-divider"></div>
-              <div className="stat-info"><Copy delay={0.45}><p>Inwood, NYC</p></Copy></div>
-            </div>
           </div>
         </div>
       </section>

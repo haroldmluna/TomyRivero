@@ -3,27 +3,26 @@
 /* Dark theme (default) */
 :root,
 .theme-dark {
-  --base-100: rgb(242, 237, 230);
-  --base-200: rgb(204, 200, 194);
-  --base-250: rgb(179, 167, 152);
-  --base-300: rgb(153, 143, 130);
-  --base-350: rgb(128, 119, 108);
-  --base-400: rgb(102, 95, 86);
-  --base-450: rgb(31, 29, 29);
-  /* Pure black background for dark theme */
-  --base-500: rgb(0, 0, 0);
+  --base-100: rgb(255, 255, 255); /* White */
+  --base-200: rgb(224, 224, 224); /* Light Gray */
+  --base-250: rgb(192, 192, 192); /* Silver */
+  --base-300: rgb(160, 160, 160); /* Gray */
+  --base-350: rgb(128, 128, 128); /* Medium Gray */
+  --base-400: rgb(96, 96, 96);   /* Dark Gray */
+  --base-450: rgb(32, 32, 32);     /* Very Dark Gray */
+  --base-500: rgb(0, 0, 0);       /* Black */
 }
 
 /* Light theme overrides */
 .theme-light {
-  --base-500: rgb(248, 247, 245);
-  --base-450: rgb(255, 255, 255);
-  --base-400: rgb(227, 224, 219);
-  --base-350: rgb(196, 190, 182);
-  --base-300: rgb(132, 126, 118);
-  --base-250: rgb(102, 96, 88);
-  --base-200: rgb(72, 67, 60);
-  --base-100: rgb(26, 24, 24);
+  --base-500: rgb(255, 255, 255); /* White */
+  --base-450: rgb(245, 245, 245); /* Off-white */
+  --base-400: rgb(224, 224, 224); /* Light Gray */
+  --base-350: rgb(192, 192, 192); /* Silver */
+  --base-300: rgb(128, 128, 128); /* Medium Gray */
+  --base-250: rgb(96, 96, 96);   /* Dark Gray */
+  --base-200: rgb(64, 64, 64);     /* Very Dark Gray */
+  --base-100: rgb(0, 0, 0);       /* Black */
 }
 
 /* Respect system when in system mode via prefers-color-scheme */
@@ -93,6 +92,24 @@ p.lg {
   line-height: 1.4;
 }
 
+p.xl {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.xs {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.xxs {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
 p.mono {
   text-transform: uppercase;
   font-family: "DM Mono";
@@ -107,6 +124,18 @@ p.md.mono {
 
 p.lg.mono {
   font-size: 1.1rem;
+}
+
+p.xl.mono {
+  font-size: 1.2rem;
+}
+
+p.xs.mono {
+  font-size: 0.8rem;
+}
+
+p.xxs.mono {
+  font-size: 0.7rem;
 }
 
 a {
