@@ -49,7 +49,9 @@
   padding: 1rem;
 }
 
-/* heading inherits colors from container */
+.cta-window .cta-window-header h1 {
+
+}
 
 .cta-window .cta-window-footer {
   position: relative;
