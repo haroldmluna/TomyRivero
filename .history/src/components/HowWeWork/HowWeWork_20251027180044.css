@@ -1,0 +1,196 @@
+.how-we-work {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  color: var(--base-100);
+  display: flex;
+  gap: 2rem;
+}
+
+.how-we-work .how-we-work-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100vh;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.how-we-work .how-we-work-header-content {
+  padding-top: 12rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.how-we-work .how-we-work-header-content .how-we-work-header-callout p {
+  color: var(--base-350);
+}
+
+.how-we-work .how-we-work-header-content h3 {
+  color: var(--base-100);
+  margin-bottom: 2rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.how-we-work .how-we-work-steps {
+  display: flex;
+  gap: 1rem;
+}
+
+.how-we-work .how-we-work-step {
+  position: relative;
+  padding: 1.25rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--base-400);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.how-we-work .how-we-work-step p {
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+
+.how-we-work .how-we-work-step-label {
+  position: absolute;
+  left: 2rem;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease;
+  will-change: transform;
+  white-space: nowrap;
+}
+
+.how-we-work .how-we-work-step-index {
+  position: relative;
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+
+.how-we-work .how-we-work-step.active {
+  width: 8rem;
+  color: var(--base-500);
+  background-color: var(--base-100);
+  border-color: var(--base-100);
+}
+
+.how-we-work .how-we-work-step.active .how-we-work-step-index {
+  transform: translateX(24px);
+}
+
+.how-we-work .how-we-work-step.active .how-we-work-step-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.how-we-work .how-we-work-cards {
+  flex: 2;
+  position: relative;
+  margin-left: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  padding: 8rem 0 6rem;
+  will-change: transform;
+}
+
+.how-we-work .how-we-work-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: var(--base-450);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--base-400);
+}
+
+.how-we-work .how-we-work-card-img {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.how-we-work .how-we-work-card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  /* Removed grayscale to restore color imagery */
+  filter: none;
+}
+
+.how-we-work .how-we-work-card-index-label {
+  color: var(--base-100);
+  margin-bottom: 0.5rem;
+}
+
+.how-we-work .how-we-work-card-index-label h3 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.how-we-work .how-we-work-card-copy {
+  color: var(--base-350);
+  padding: 0 0.25rem 0.25rem;
+  line-height: 1.65;
+}
+
+.how-we-work .how-we-work-cta {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .how-we-work {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .how-we-work .how-we-work-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .how-we-work .how-we-work-steps {
+    display: none;
+  }
+
+  .how-we-work .how-we-work-header-content {
+    padding-top: 2rem;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .how-we-work .how-we-work-header-content h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .how-we-work .how-we-work-cards {
+    margin-left: 0;
+    padding: 1rem 0;
+  }
+
+  .how-we-work .how-we-work-card-index-label h3 {
+    font-size: 1.75rem;
+  }
+}
