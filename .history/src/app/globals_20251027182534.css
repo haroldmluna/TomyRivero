@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200..800&display=swap");
+
+/* Dark theme (default) */
+:root,
+.theme-dark {
+  --base-100: rgb(255, 255, 255); /* White */
+  --base-200: rgb(224, 224, 224); /* Light Gray */
+  --base-250: rgb(192, 192, 192); /* Silver */
+  --base-300: rgb(160, 160, 160); /* Gray */
+  --base-350: rgb(128, 128, 128); /* Medium Gray */
+  --base-400: rgb(96, 96, 96);   /* Dark Gray */
+  --base-450: rgb(32, 32, 32);     /* Very Dark Gray */
+  --base-500: rgb(0, 0, 0);       /* Black */
+
+  /* CTA variables (dark default) */
+  --cta-bg: rgba(255, 255, 255, 0.75);
+  --cta-circle-bg: var(--base-450);
+  --cta-text: var(--base-500);
+  --cta-text-hover: var(--base-100);
+
+  /* Controls (TopBar) */
+  --control-bg: rgba(255, 255, 255, 0.06);
+  --control-border: var(--base-400);
+  --control-text: var(--base-200);
+}
+
+/* Light theme overrides */
+.theme-light {
+  --base-500: rgb(255, 255, 255); /* White */
+  --base-450: rgb(245, 245, 245); /* Off-white */
+  --base-400: rgb(224, 224, 224); /* Light Gray */
+  --base-350: rgb(192, 192, 192); /* Silver */
+  --base-300: rgb(128, 128, 128); /* Medium Gray */
+  --base-250: rgb(96, 96, 96);   /* Dark Gray */
+  --base-200: rgb(64, 64, 64);     /* Very Dark Gray */
+  --base-100: rgb(0, 0, 0);       /* Black */
+
+  /* CTA variables (light overrides for contrast) */
+  --cta-bg: rgba(0, 0, 0, 0.12);
+  --cta-circle-bg: var(--base-250);
+  --cta-text: var(--base-200);
+  --cta-text-hover: var(--base-100);
+
+  /* Controls (TopBar) */
+  --control-bg: rgba(0, 0, 0, 0.08);
+  --control-border: var(--base-350);
+  --control-text: var(--base-200);
+}
+
+/* Respect system when in system mode via prefers-color-scheme */
+/* Note: system handling is applied via JS by toggling classes */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--base-500);
+  color: var(--base-100);
+}
+
+section,
+.footer {
+  background-color: var(--base-500);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.25rem;
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 550;
+  letter-spacing: -0.15rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.075rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.md {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.lg {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.xl {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.xs {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.xxs {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p.mono {
+  text-transform: uppercase;
+  font-family: "DM Mono";
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.md.mono {
+  font-size: 1rem;
+}
+
+p.lg.mono {
+  font-size: 1.1rem;
+}
+
+p.xl.mono {
+  font-size: 1.2rem;
+}
+
+p.xs.mono {
+  font-size: 0.8rem;
+}
+
+p.xxs.mono {
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--base-200);
+  border-radius: 0.35rem;
+}
+
+span.spacer {
+  display: inline-block;
+  width: 20rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: -0.1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: -0.025rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none !important;
+}
+
+::view-transition-group(root) {
+  z-index: auto !important;
+}
+
+::view-transition-image-pair(root) {
+  isolation: isolate;
+  will-change: transform, opacity, clip-path;
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 10000;
+  animation: none !important;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+  animation: none !important;
+}
+
+body.menu-open * {
+  pointer-events: none;
+}
+
+body.menu-open .menu,
+body.menu-open .menu *,
+body.menu-open .menu-toggle {
+  pointer-events: auto;
+}
