@@ -1,0 +1,4 @@
+.map{width:100%;height:480px;border-radius:1rem;overflow:hidden}
+@media (max-width:1000px){.map{height:320px}}
+/* Leaflet styles from CDN */
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
